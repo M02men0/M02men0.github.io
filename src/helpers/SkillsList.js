@@ -1,15 +1,18 @@
-import { CppSVG } from "../helpers/SVGs.jsx";
+import CppIcon from '../assets/icons/color/480x480/CPP.svg';
+import PythonIcon from '../assets/icons/color/480x480/Python.svg';
 
-import CppIcon from '../asets/icons/color/480x480/CPP.svg';
-import PythonIcon from '../asets/icons/color/480x480/Python.svg';
+import VSCodeIcon from '../assets/icons/color/480x480/VSCode.svg';
+import ArduinoIcon from '../assets/icons/color/480x480/Arduino.svg';
+import RaspberryPiIcon from '../assets/icons/color/480x480/RasberryPi.svg';
 
-import VSCodeIcon from '../asets/icons/color/480x480/VSCode.svg';
-import ArduinoIcon from '../asets/icons/color/480x480/Arduino.svg';
-import RaspberryPiIcon from '../asets/icons/color/480x480/RasberryPi.svg';
+import STM32Icon from '../assets/icons/color/480x480/STM.svg';
 
-const STM32Icon = 'https://img.icons8.com/fluency/480/unity.png';
+import TinkerCADIcon from '../assets/icons/color/480x480/TinkerCad.svg';
+import AutoCADIcon from '../assets/icons/color/480x480/AutoCad.svg';
 
-import AutoCADIcon from '../asets/icons/color/480x480/AutoCad.svg';
+import AdobeIllustrator from '../assets/icons/color/480x480/AdobeIllustrator.svg';
+import AdobePhotshot from '../assets/icons/color/480x480/AdobePhotshot.svg';
+import AdobeBridge from '../assets/icons/color/480x480/AdobeBridge.svg';
 
 const FusionIcon = 'https://img.icons8.com/fluency/480/unity.png';
 const InventorIcon = 'https://img.icons8.com/fluency/480/unity.png';
@@ -26,12 +29,15 @@ const skills = {
       { src: VSCodeIcon, alt: 'Visual Studio Code' },
       { src: ArduinoIcon, alt: 'Arduino' },
       { src: RaspberryPiIcon, alt: 'Raspberry Pi' },
-      { src: STM32Icon, alt: 'STM32' },
-      { src: VSCodeIcon, alt: 'Visual Studio Code' },
 
+      { src: STM32Icon, alt: 'STM32' },
+
+      { src: TinkerCADIcon, alt: 'Autodesk TinkerCAD' },
       { src: AutoCADIcon, alt: 'Autodesk AutoCAD' },
-      { src: InventorIcon, alt: 'Inventor Autodesk' },
-      { src: UnityIcon, alt: 'Unity' },
+      
+      { src: AdobeIllustrator, alt: 'Adobe Illustrator'},
+      { src: AdobePhotoshop, alt: 'Adobe Photoshop'},
+      { src: AdobeBridge, alt: 'Adobe Bridge'},
     ]
   };
   
