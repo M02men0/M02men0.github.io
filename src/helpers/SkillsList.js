@@ -11,7 +11,7 @@ import TinkerCADIcon from '../assets/icons/color/480x480/TinkerCAD.svg';
 import AutoCADIcon from '../assets/icons/color/480x480/AutoCAD.svg';
 
 import AdobeIllustrator from '../assets/icons/color/480x480/AdobeIllustrator.svg';
-import AdobePhotshot from '../assets/icons/color/480x480/AdobePhotshot.svg';
+import AdobePhotoshop from '../assets/icons/color/480x480/AdobePhotoshop.svg';
 import AdobeBridge from '../assets/icons/color/480x480/AdobeBridge.svg';
 
 
