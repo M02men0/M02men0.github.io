@@ -66,6 +66,7 @@
   --badge-hover-scale: 1.05;
 }
 
+
 [data-theme="dark2"] {
   /* Backgrounds */
   --bg-page-1: #0b1020;   /* blue-black */
@@ -134,38 +135,36 @@
 }
 
 
-
-/*
-[data-theme="dark"] {
+[data-theme="light2"] {
   /* Backgrounds */
-  --bg-page-1: #0b2435;
-  --bg-surface-1: #212121;
+  --bg-page-1: #f6f8fb;   /* soft neutral light */
+  --bg-page-2: #0f172a;   /* deep navy contrast */
 
-  --bg-page-2: #173f17;
-  --bg-surface-2: #25562f;
+  --bg-surface-1: #ffffff; /* clean card surface */
+  --bg-surface-2: #e2e8f0; /* subtle divider surface */
 
   /* Text */
-  --text-primary-1: #10a100;
-  --text-secondary-1: #076900;
+  --text-primary-1: #0f172a;   /* near-black navy */
+  --text-secondary-1: #475569; /* cool gray */
 
-  --text-primary-2: #050094;
-  --text-secondary-2: #00043a;
+  --text-primary-2: #2563eb;   /* blue emphasis */
+  --text-secondary-2: #0ea5e9; /* cyan-blue */
 
   /* Accents */
-  --accent-light: #5f0939;
-  --accent-primary: #7a0c4e;
-  --accent-shadow: #2a1c88;
-  --accent: #47002d;
-
+  --accent-light: #7dd3fc;   /* airy blue */
+  --accent-primary: #2563eb; /* balanced royal blue */
+  --accent-shadow: #1e3a8a;  /* deep blue */
+  --accent: #14b8a6;         /* subtle teal twist */
 
   /* Buttons */
-  --btn-bg: #978249; 
-  --btn-text: #efefef;
+  --btn-bg: #2563eb;
+  --btn-text: #ffffff;
   --btn-hover-scale: 1.05;
 
-/* Badges */
-  --badge-bg: #978249; 
-  --badge-text: #efefef;
+  /* Badges */
+  --badge-bg: #14b8a6;
+  --badge-text: #ffffff;
   --badge-hover-scale: 1.05;
-*/
+}
+
 
