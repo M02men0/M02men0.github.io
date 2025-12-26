@@ -1,32 +1,35 @@
 import { CppSVG } from "../helpers/SVGs.jsx";
 
-const CppIcon = 'https://img.icons8.com/fluency/480/unity.png';
+import CppIcon from '../asets/icons/color/480x480/CPP.svg';
+import PythonIcon from '../asets/icons/color/480x480/Python.svg';
 
-const PythonIcon = 'https://img.icons8.com/fluency/480/unity.png';
-const VSCodeIcon = 'https://img.icons8.com/fluency/480/visual-studio-code-2019.png';
+import VSCodeIcon from '../asets/icons/color/480x480/VSCode.svg';
+import ArduinoIcon from '../asets/icons/color/480x480/Arduino.svg';
+import RaspberryPiIcon from '../asets/icons/color/480x480/RasberryPi.svg';
 
-const ArduinoIcon = 'https://img.icons8.com/color/480/arduino.png';
-const RaspberryPiIcon = 'https://img.icons8.com/color/480/raspberry-pi.png';
 const STM32Icon = 'https://img.icons8.com/fluency/480/unity.png';
+
+import AutoCADIcon from '../asets/icons/color/480x480/AutoCad.svg';
 
 const FusionIcon = 'https://img.icons8.com/fluency/480/unity.png';
 const InventorIcon = 'https://img.icons8.com/fluency/480/unity.png';
 const UnityIcon = 'https://img.icons8.com/fluency/480/unity.png';
 
 
+
 const skills = {
     Languages: [
-      { svg: CppSVG, alt: 'C++' },
+      { svg: CppIcon, alt: 'C++' },
       { src: PythonIcon, alt: 'Python' },
-      { src: VSCodeIcon, alt: 'Visual Studio Code' },
     ],
     Tools: [
+      { src: VSCodeIcon, alt: 'Visual Studio Code' },
       { src: ArduinoIcon, alt: 'Arduino' },
       { src: RaspberryPiIcon, alt: 'Raspberry Pi' },
       { src: STM32Icon, alt: 'STM32' },
       { src: VSCodeIcon, alt: 'Visual Studio Code' },
 
-      { src: FusionIcon, alt: 'Fusion 360' },
+      { src: AutoCADIcon, alt: 'Autodesk AutoCAD' },
       { src: InventorIcon, alt: 'Inventor Autodesk' },
       { src: UnityIcon, alt: 'Unity' },
     ]
