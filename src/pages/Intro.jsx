@@ -56,7 +56,7 @@ function Intro() {
               <ReactTyped
                 strings={[
                   '🖥️Computer Engineering @ University Of Waterloo',
-                  '🛻Prev Hardware Development Intern @ Ford',
+                  '👨‍💻Seeking Spring 2026 CO-OP jobs',
                 ]}
                 typeSpeed={35}
                 backSpeed={30}
