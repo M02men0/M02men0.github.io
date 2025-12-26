@@ -66,8 +66,77 @@
   --badge-hover-scale: 1.05;
 }
 
+[data-theme="dark2"] {
+  /* Backgrounds */
+  --bg-page-1: #0b1020;   /* blue-black */
+  --bg-page-2: #050814;   /* deep night */
 
-[data-theme="darkk"] {
+  --bg-surface-1: #121a2f; /* dark indigo */
+  --bg-surface-2: #1a2442; /* muted navy */
+
+  /* Text */
+  --text-primary-1: #f1f5f9;   /* soft white */
+  --text-secondary-1: #b6c0d1; /* cool desaturated blue */
+
+  --text-primary-2: #7dd3fc;   /* cyan-blue highlight */
+  --text-secondary-2: #38bdf8; /* brighter cyan */
+
+  /* Accents */
+  --accent-light: #67e8f9;   /* icy cyan */
+  --accent-primary: #0ea5e9; /* sky blue */
+  --accent-shadow: #075985;  /* deep ocean blue */
+  --accent: #0284c7;
+
+  /* Buttons */
+  --btn-bg: #0284c7;
+  --btn-text: #f1f5f9;
+  --btn-hover-scale: 1.05;
+
+  /* Badges */
+  --badge-bg: #075985;
+  --badge-text: #e2e8f0;
+  --badge-hover-scale: 1.05;
+}
+
+
+}
+
+[data-theme="light"] {
+  /* Backgrounds */
+  --bg-page-1: #f8fafc;   /* soft off-white */
+  --bg-page-2: #eef2f7;   /* light cool gray */
+
+  --bg-surface-1: #ffffff; /* clean white */
+  --bg-surface-2: #e5e9f0; /* subtle gray-blue */
+
+  /* Text */
+  --text-primary-1: #1e293b;   /* slate dark */
+  --text-secondary-1: #475569; /* muted slate */
+
+  --text-primary-2: #0f766e;   /* teal emphasis */
+  --text-secondary-2: #115e59; /* deeper teal */
+
+  /* Accents */
+  --accent-light: #5eead4;   /* light mint */
+  --accent-primary: #14b8a6; /* teal */
+  --accent-shadow: #0f766e;  /* dark teal */
+  --accent: #2dd4bf;
+
+  /* Buttons */
+  --btn-bg: #14b8a6;
+  --btn-text: #ffffff;
+  --btn-hover-scale: 1.05;
+
+  /* Badges */
+  --badge-bg: #0f766e;
+  --badge-text: #ffffff;
+  --badge-hover-scale: 1.05;
+}
+
+
+
+/*
+[data-theme="dark"] {
   /* Backgrounds */
   --bg-page-1: #0b2435;
   --bg-surface-1: #212121;
@@ -98,18 +167,5 @@
   --badge-bg: #978249; 
   --badge-text: #efefef;
   --badge-hover-scale: 1.05;
-
-
-}
-
-[data-theme="light"] {
-  --bg-page: #ffffff;
-  --bg-surface: #efefef;
-
-  --text-primary: #111111;
-  --text-secondary: #555555;
-
-  --accent-primary: #00549d;
-  --accent-shadow: #383838;
-}
+*/
 
