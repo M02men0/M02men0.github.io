@@ -18,7 +18,7 @@ import AdobeBridge from '../assets/icons/color/480x480/AdobeBridge.svg';
 
 const skills = {
     Languages: [
-      { svg: CppIcon, alt: 'C++' },
+      { src: CppIcon, alt: 'C++' },
       { src: PythonIcon, alt: 'Python' },
     ],
     Tools: [

@@ -15,27 +15,11 @@ export default function SkillsSection() {
               <h3 className="montserrat-text">{category}</h3>
             </div>
             <div className="col-lg-10 text-center text-lg-start">
-
-
-
-
               {icons.map((icon, i) => (
-                <a key={i} className="btn btn-skills text-center" role="button" title={icon.alt}>
-                  {icon.svg ?
-                  (
-                    icon.svg
-                  ) :(
-                    <img src={icon.src} width="64px" height="64px" alt={icon.alt} loading="lazy"/>
-                  )}
+                <a key={i} className="btn btn-skills text-center" role="button">
+                  <img src={icon.src} width="64px" height="64px" title={icon.alt} loading="lazy"/>
                 </a>
               ))}
-
-
-
-
-
-
-              
             </div>
           </div>
         ))}
