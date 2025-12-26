@@ -1,0 +1,162 @@
+/* ========== Project section ========== */
+.line-break {
+    width: 40px;
+    height: 5px;
+    margin: 0 0;
+}
+
+.btn-projects {
+    font-family: "Montserrat";
+    background-color: var(--accent);
+    color: var(--btn-text) !important;
+    font-size: 4vw;
+    box-shadow: none !important;
+    outline: none !important;
+    border-radius: 5px;
+}    
+
+.btn-projects:hover {
+    background-color: var(--accent-primary);
+}
+
+.btn-projects.active,
+.btn-projects:focus,
+.btn-projects:active {
+  background-color: var(--accent-primary) !important;
+  color: rgb(255, 255, 255);
+  border-color: var(--accent-primary);
+}
+
+/* ---------- Large Cards ---------- */
+.projects-large-cards {
+    align-items: center;
+    border-radius: 5px;
+    overflow: auto;
+    background-color: var(--bg-surface-2);
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    border: none;
+}
+
+/* Show the card */
+.card-container.active {
+    display: block;
+}
+
+/* Hide the card */
+.card-container.hide {
+    display: none;
+}
+
+.projects-large-cards:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px, rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+    transform: translateY(-5px);
+}
+
+/* Brighten the card images on hover */
+.projects-large-cards:hover .card-img-projects {
+    filter: brightness(100%);
+    transition: 0.5s ease-in-out;
+}
+
+.card-body-large-cards {
+    text-align: start;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    /* Aligns footer text to the bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-body {
+    text-align: start;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* Aligns footer text to the bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: var(--text-primary-2) !important;
+
+}
+
+.card-text {
+    font-family: "Montserrat";
+    color: var(--text-primary-2) !important;
+    /*color: #000000 !important;*/
+}
+
+.card-img-projects {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    filter: brightness(75%);
+    transition: 0.5s ease-in-out;
+    object-fit: cover;
+}
+
+
+/* ---------- Smaller Cards ----------*/
+.projects-small-cards {
+    background-color: var(--bg-surface-2);
+    align-items: center;
+    border-radius: 5px;
+    overflow: auto;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    border: none;
+}
+
+.projects-small-cards:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px -2px, rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px;
+    /*filter: drop-shadow(5px 5px 3px #383838);*/
+    transform: translateY(-5px);
+}
+.small-cards-img {
+    width: 8rem;
+    padding-top: 1rem;
+}
+
+/* Default image should be square however for small cards with landscape images */
+#landscape-img{
+    width: 20rem!important;
+}
+
+/* -- Badges --*/
+.badges-group-large {
+    text-align: start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.badges-group-small {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.projects-skill-badge {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    margin:0.25rem;
+}
+
+.projects-link-badge {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    transition: 0.3s ease-in-out;
+}
+
+.projects-link-badge:hover {
+    transform: scale(1.05);
+}
+
+.projects-badge-icons {
+    width: 2rem;
+}

@@ -1,0 +1,81 @@
+:root {
+  /* Backgrounds */
+  --bg-page-1: #383838;
+  --bg-page-2: #ffffff;
+
+  --bg-surface-1: #efefef;
+  --bg-surface-2: #dddddd;
+
+  /* Text */
+  --text-primary-1: #ffffff;
+  --text-secondary-1: #efefef;
+
+  --text-primary-2: #790000;
+  --text-secondary-2: #a40000;
+
+  /* Accents */
+  --accent-light: #d9c084;
+  --accent-primary: #a5915f;
+  --accent-shadow: #978249;
+  --accent: #978249;
+
+
+  /* Buttons */
+  --btn-bg: #978249; 
+  --btn-text: #efefef;
+  --btn-hover-scale: 1.05;
+
+/* Badges */
+  --badge-bg: #978249; 
+  --badge-text: #efefef;
+  --badge-hover-scale: 1.05;
+
+
+}
+
+
+[data-theme="dark"] {
+  /* Backgrounds */
+  --bg-page-1: #0b2435;
+  --bg-surface-1: #212121;
+
+  --bg-page-2: #173f17;
+  --bg-surface-2: #25562f;
+
+  /* Text */
+  --text-primary-1: #10a100;
+  --text-secondary-1: #076900;
+
+  --text-primary-2: #050094;
+  --text-secondary-2: #00043a;
+
+  /* Accents */
+  --accent-light: #5f0939;
+  --accent-primary: #7a0c4e;
+  --accent-shadow: #2a1c88;
+  --accent: #47002d;
+
+
+  /* Buttons */
+  --btn-bg: #978249; 
+  --btn-text: #efefef;
+  --btn-hover-scale: 1.05;
+
+/* Badges */
+  --badge-bg: #978249; 
+  --badge-text: #efefef;
+  --badge-hover-scale: 1.05;
+
+
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --bg-surface: #efefef;
+
+  --text-primary: #111111;
+  --text-secondary: #555555;
+
+  --accent-primary: #00549d;
+  --accent-shadow: #383838;
+}

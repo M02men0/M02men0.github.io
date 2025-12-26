@@ -1,0 +1,41 @@
+/* ========== About section ========== */
+.section-title {
+    font-family: "Montserrat";
+    color: var(--text-primary-1);
+    font-size: 3rem;
+    font-weight: bold;   
+}
+
+.about-text {
+    font-family: "Source Sans Pro";
+    color: var(--text-secondary-1) !important;
+    font-size: 1.25rem;
+    line-height: normal;
+    margin-top: 1rem;
+}
+
+.line-break {
+    width: 40px;
+    height: 5px;
+    margin: 0 0;
+}
+  
+/* ----- Buttons ----- */
+.intrest-image {
+    /*Ensure the button images span the entire width of the button*/
+    width: 100%;
+}
+.triggerAnimation {
+    animation: slide-in 2s;
+    animation-iteration-count: 1;
+}
+
+.highlight {
+    color: var(--accent-light);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.carousel-item {
+    transition: transform .6s ease-in-out;
+}
