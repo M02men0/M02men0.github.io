@@ -7,16 +7,12 @@ import RaspberryPiIcon from '../assets/icons/color/480x480/RasberryPi.svg';
 
 import STM32Icon from '../assets/icons/color/480x480/STM.svg';
 
-import TinkerCADIcon from '../assets/icons/color/480x480/TinkerCad.svg';
-import AutoCADIcon from '../assets/icons/color/480x480/AutoCad.svg';
+import TinkerCADIcon from '../assets/icons/color/480x480/TinkerCAD.svg';
+import AutoCADIcon from '../assets/icons/color/480x480/AutoCAD.svg';
 
 import AdobeIllustrator from '../assets/icons/color/480x480/AdobeIllustrator.svg';
 import AdobePhotshot from '../assets/icons/color/480x480/AdobePhotshot.svg';
 import AdobeBridge from '../assets/icons/color/480x480/AdobeBridge.svg';
-
-const FusionIcon = 'https://img.icons8.com/fluency/480/unity.png';
-const InventorIcon = 'https://img.icons8.com/fluency/480/unity.png';
-const UnityIcon = 'https://img.icons8.com/fluency/480/unity.png';
 
 
 
