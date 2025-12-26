@@ -1,7 +1,7 @@
 
 import AthanPi from "../assets/gallery/Pi.jpg";
 import M4 from "../assets/gallery/M4.jpg";
-import Arduino from "../assets/gallery/arduino_uno.png";
+import Arduino from "../assets/gallery/Arduino_uno.png";
 
 
 const projects = [
