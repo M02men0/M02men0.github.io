@@ -36,6 +36,39 @@
 
 [data-theme="dark"] {
   /* Backgrounds */
+  --bg-page-1: #0f172a;   /* deep navy */
+  --bg-page-2: #020617;   /* near-black blue */
+
+  --bg-surface-1: #111827; /* dark slate */
+  --bg-surface-2: #1f2933; /* muted blue-gray */
+
+  /* Text */
+  --text-primary-1: #e5e7eb;   /* near-white */
+  --text-secondary-1: #9ca3af; /* cool gray */
+
+  --text-primary-2: #60a5fa;   /* soft blue accent */
+  --text-secondary-2: #3b82f6; /* stronger blue */
+
+  /* Accents */
+  --accent-light: #93c5fd;   /* light blue */
+  --accent-primary: #3b82f6; /* primary blue */
+  --accent-shadow: #1e40af;  /* deep blue */
+  --accent: #2563eb;
+
+  /* Buttons */
+  --btn-bg: #2563eb;
+  --btn-text: #e5e7eb;
+  --btn-hover-scale: 1.05;
+
+  /* Badges */
+  --badge-bg: #1e40af;
+  --badge-text: #e5e7eb;
+  --badge-hover-scale: 1.05;
+}
+
+
+[data-theme="darkk"] {
+  /* Backgrounds */
   --bg-page-1: #0b2435;
   --bg-surface-1: #212121;
 
@@ -79,3 +112,4 @@
   --accent-primary: #00549d;
   --accent-shadow: #383838;
 }
+
