@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/Contact.css';
 import GithubIcon from "../assets/icons/github.svg";
 import LinkedInIcon from "../assets/icons/linkedin.svg";
+import mailIcon from "../assets/icons/mail.svg";
+
 
 export default function ContactSection() {
   return (
@@ -15,14 +17,14 @@ export default function ContactSection() {
                 Contact me by sending me a message directly or through my socials below!
               </h3>
               <div className="text-center">
-                <button className="social-buttons" onClick={() => window.location.href = 'https://github.com/'}>
+                <button className="social-buttons" onClick={() => window.location.href = 'https://github.com/M02men0'}>
                   <img src={GithubIcon} alt="Github Logo" width="50rem" height="auto" />
                 </button>
-                <button className="social-buttons" onClick={() => window.location.href = 'https://www.linkedin.com/'}>
+                <button className="social-buttons" onClick={() => window.location.href = 'https://www.linkedin.com/in/mteeng/'}>
                   <img src={LinkedInIcon} alt="Linkedin Logo" width="50rem" height="auto" />
                 </button>
-                <button className="social-buttons" onClick={() => window.location.href = 'mailto:example@gmail.com'}>
-                  <img src="https://img.icons8.com/material-rounded/512/ffffff/mail.png" alt="Email Logo" width="50rem" height="auto" />
+                <button className="social-buttons" onClick={() => window.location.href = 'mailto:moemenomar2006@gmail.com'}>
+                  <img src={mailIcon} alt="Email Logo" width="50rem" height="auto" />
                 </button>
               </div>
             </div>
@@ -34,7 +36,7 @@ export default function ContactSection() {
         <div className="container text-center">
           <div className="col-12 p-2">
             <h3 style={{ color: '#efefef', fontFamily: 'Source Sans Pro', fontSize: '1rem' }}>
-              ⚙️ Designed by Elgazzar ⚙️ | Based on a design my RAHIM AZIZ
+              ⚙️ Built by Moemen Elgazzar ⚙️ | Original design by RAHIM AZIZ
             </h3>
           </div>
         </div>

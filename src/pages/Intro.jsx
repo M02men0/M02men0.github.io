@@ -50,6 +50,7 @@ function Intro() {
           
           {/* Left side: Text content */}
           <div className="col-sm-6 text-left">
+            <p className="typewriter-title" style={{ marginTop: '10rem' }}>🚧🚧Website still under construction 🚧🚧</p>
             <h1 className="name">MOEMEN ELGAZZAR</h1>
 
             <div className="typewriter-title" style={{ marginTop: '1rem' }}>
@@ -70,7 +71,7 @@ function Intro() {
               <button
                 type="button"
                 className="social-buttons"
-                onClick={() => window.open('https://www.linkedin.com/in/', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/mteeng', '_blank')}
               >
                 <img
                   src={LinkedInIcon}
@@ -83,7 +84,7 @@ function Intro() {
               <button
                 type="button"
                 className="social-buttons"
-                onClick={() => window.open('https://github.com/', '_blank')}
+                onClick={() => window.open('https://github.com/M02men0', '_blank')}
               >
                 <img
                   src={GithubIcon}

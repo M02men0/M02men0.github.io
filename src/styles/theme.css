@@ -39,7 +39,7 @@
   --bg-page-1: #0f172a;   /* deep navy */
   --bg-page-2: #020617;   /* near-black blue */
 
-  --bg-surface-1: #111827; /* dark slate */
+  --bg-surface-1: #1b2e58; /* dark slate */
   --bg-surface-2: #1f2933; /* muted blue-gray */
 
   /* Text */
@@ -100,8 +100,6 @@
 }
 
 
-}
-
 [data-theme="light"] {
   /* Backgrounds */
   --bg-page-1: #f8fafc;   /* soft off-white */
@@ -137,7 +135,7 @@
 
 [data-theme="light2"] {
   /* Backgrounds */
-  --bg-page-1: #f6f8fb;   /* soft neutral light */
+  --bg-page-1: #dcf6ef;   /* soft neutral light */
   --bg-page-2: #0f172a;   /* deep navy contrast */
 
   --bg-surface-1: #ffffff; /* clean card surface */

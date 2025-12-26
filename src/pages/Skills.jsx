@@ -6,8 +6,8 @@ export default function SkillsSection() {
   return (
     <section id="skills">
       <div className="container pt-5">
-        <h1 className="section-title">Skills</h1>
-        <div className="line-break" style={{ backgroundColor: '#ffffff' }}></div>
+        <h1 className="section-title" style={{color: "var(--text-primary-1)"}}>Skills</h1>
+        <div className="line-break" style={{ backgroundColor: "var(--text-primary-1)" }}></div>
 
         {Object.entries(skills).map(([category, icons], index) => (
           <div className="row mb-3" key={index}>

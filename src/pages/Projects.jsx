@@ -1,20 +1,23 @@
 import React, { useState } from 'react';
 import "../styles/Projects.css";
 import projects from "../helpers/ProjectList.js";
-import ExternalLinkImage from "../assets/icons/external-link.png"
+import ExternalLinkImage from "../assets/icons/open.svg"
 
 function Projects() {
   const [filter, setFilter] = useState('hardware');
+
 
   const filteredProjects = filter === 'all' 
     ? projects 
     : projects.filter(p => p.group === filter);
 
     const filters = [
-      { key: 'hardware', label: 'Hardware', icon: 'memory' },
-      { key: 'siftware', label: 'Software', icon: 'code' },
-      { key: 'other', label: 'Other', icon: 'terminal' },
+      { key: 'hardware', size: 'small', label: 'Hardware', icon: 'memory' },
+      { key: 'software', size: 'small', label: 'Software', icon: 'code' },
+      { key: 'other',    size: 'small', label: 'Other',    icon: 'terminal' },
     ];
+    
+    const currentFilter = filters.find(f => f.key === filter);
   
   return (
     <>
@@ -39,9 +42,9 @@ function Projects() {
           </div>
 
           {/* Project Cards */}
-          <div className={`row ${filter === 'games' ? 'g-0' : 'g-4'}`}>
+          <div className={`row ${currentFilter.size === 'large' ? 'g-0' : 'g-4'}`}>
             {filteredProjects.map(project => {
-              if (filter === 'games') {
+              if (currentFilter.size === 'large') {
                 // Render large horizontal card
                 return (
                   <div key={project.id} className="card projects-large-cards mb-3 card-container">

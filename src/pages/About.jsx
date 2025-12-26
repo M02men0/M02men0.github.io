@@ -9,20 +9,20 @@ function About() {
         <div className="container pt-5">
           <div className="row justify-content-around align-items-center">
             <div className="col-sm-7">
-              <h1 className="section-title" style={{ color: '#efefef' }}>Hello!</h1>
-              <div className="line-break" style={{ backgroundColor: '#ffffff' }}></div>
+              <h1 className="section-title" style={{ color: "var(--text-primary-1)" }}>Hello!</h1>
+              <div className="line-break" style={{ backgroundColor: "var(--text-primary-1)" }}></div>
               <p className="about-text">
-                Hello! My name is <b>MEMOOOOOOOOO</b>, blah
-                blah
-                blah. 
+                Hello! My name is <b>Moemen Elgazzar</b>, I'm a first year engineering student at the university of waterloo. 
+                I'm interested in robotics, software, hardware, all of it really.
+                In my free time i like to work on side projects, explore the wilderness, travel. doung all that, i allways take pictures.
+                I take photos whever i can. Beautiful archetecture, nature, wildlife, motorsports. i enjoy it all 📸📸📸
               </p>
               <p className="about-text">
-                This fall blah
-                blah
-                blah. 
+                In my free time i like to work on side projects, explore the wilderness, travel. doung all that, i allways take pictures.
+                I take photos whever i can. Beautiful archetecture, nature, wildlife, motorsports. i enjoy it all 📸📸📸 
               </p>
               <p className="about-text">
-                BLAH BLAH BLAH
+                This winter, im working on securing my first co-op job. I've worked for the past three years, though not teck related. 
               </p>
             </div>
 
